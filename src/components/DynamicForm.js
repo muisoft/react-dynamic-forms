@@ -18,7 +18,7 @@ const DynamicForm = ({title, className, model, onSubmit}) => {
     const renderControls = () => {
         return model.map(model => {
             return (
-                <div key={model.key} className="form-group">
+                <div key={model.key} className="col-lg-4 form-group">
                    <label
                      key={"label" + model.key}
                      htmlFor={model.key}>
@@ -37,11 +37,11 @@ const DynamicForm = ({title, className, model, onSubmit}) => {
         });
     }
    return (
-       <div className={className}>
+       <div>
            <h3>{form_title}</h3>
-           <form onSubmit={handleSubmit}>
+           <form onSubmit={handleSubmit} className="row">
                {renderControls()}
-               <div className="form-group">
+               <div className="form-group col-lg-4">
                   <button type="submit" className="btn btn-primary">Submit</button>
               </div>
            </form>

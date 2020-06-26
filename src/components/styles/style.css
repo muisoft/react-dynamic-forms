@@ -1,15 +1,19 @@
 .dynamic_form {
-    width: 300px;
-    min-height: 300px;
     margin: auto;
-    align-text:
-}
-.container {
-    max-width: 1140px;
 }
 .output-section {
     margin-top: 25px;
 }
+h3 {
+    margin-bottom: 2.5rem;
+}
+.container {
+    margin-top: 20px;
+}
+/*.container {
+    max-width: 1140px;
+}
+
 .form-control {
     display: block;
     width: 100%;
@@ -87,5 +91,5 @@ label {
     display: inline-block;
     margin-bottom: .5rem;
     cursor: default;
-}
+}*/
 
